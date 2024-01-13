@@ -14,7 +14,7 @@ import { RouterLink } from 'vue-router';
 
         <div class="relative">
           <div class="absolute -top-[107px] -left-[77px] z-10">
-            <h1 class="title font-semibold text-[140px] text-yellow-500">We Create</h1>
+            <h1 class="title font-semibold text-[100px] md:text-[140px] text-yellow-500">We Create</h1>
           </div>
 
           <div class="overflow-hidden">
@@ -23,7 +23,7 @@ import { RouterLink } from 'vue-router';
               class="max-w-[680px] " />
           </div>
 
-          <RouterLink to="" class="link absolute -bottom-[52px] -left-[77px] z-10">
+          <RouterLink to="/about" class="link absolute -bottom-[52px] -left-[77px] z-10">
             <div class="link-hover--color flex items-center">
               <h1 class="item-link font-semibold uppercase text-[70px] text-yellow-500">
                 Awesome Things
